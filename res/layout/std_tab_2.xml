@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/std_tab_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="What were the seps doing when you started this silo?" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <RadioGroup
+                    android:id="@+id/radioGroup1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/rbSTDOnSkim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="On Skim" />
+
+                    <RadioButton
+                        android:id="@+id/rbSTDOnFCM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="On FCM" />
+                    
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="If the seps were on skim at the start of the silo, enter the volume that you changed over to FCM." />
+
+                <EditText
+                    android:id="@+id/etSTDSkimVol"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Flow meter volume"
+                    android:inputType="number" >
+
+                    <requestFocus />
+                </EditText>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tvSTD1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Silo Volume"
+                    android:textColor="@android:color/white" />
+
+                <RadioGroup
+                    android:id="@+id/rgSTD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:id="@+id/rbSTD40k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="40000" />
+
+                    <RadioButton
+                        android:id="@+id/rbSTD50k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="50000" />
+
+                    <RadioButton
+                        android:id="@+id/rbSTD60k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="60000" />
+
+                    <RadioButton
+                        android:id="@+id/rbSTDCustom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Custom Volume" />
+                </RadioGroup>
+
+                <EditText
+                    android:id="@+id/etSTDCustom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter Custom Volume"
+                    android:inputType="number" />
+            </LinearLayout>
+       
+
+    </LinearLayout>
+
+</LinearLayout>

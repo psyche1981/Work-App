@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/etCurFat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvCurFat"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:width="130dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvCurFat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="22dp"
+        android:text="Current Fat" />
+
+    <TextView
+        android:id="@+id/tvCurVol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvCurFat"
+        android:layout_alignBottom="@+id/tvCurFat"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:text="Current Volume" />
+
+    <EditText
+        android:id="@+id/etCurVol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etCurFat"
+        android:layout_alignBottom="@+id/etCurFat"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:width="150dp" />
+
+    <EditText
+        android:id="@+id/etIntFat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvProfaniTitle"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="number|numberDecimal" />
+
+    <TextView
+        android:id="@+id/tvProfaniTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etCurFat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="Intended Fat" />
+
+    <TextView
+        android:id="@+id/tvProfDefDefinition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Raw/Skim Fat" />
+
+    <EditText
+        android:id="@+id/etAdjFat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvProfDefDefinition"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="number|numberDecimal" />
+
+    <Button
+        android:id="@+id/bAdjust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/etAdjFat"
+        android:layout_marginTop="36dp"
+        android:text="Click Me" />
+
+    <TextView
+        android:id="@+id/tvAdjRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bAdjust"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

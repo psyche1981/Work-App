@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvTrouserSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Hello.\n\nTrouser snake is a simple game. use the buttons on the side of the screen to direct the snake to collect the target.\n\nDon&apos;t press the opposite direction to which you are travelling or hit the sides, otherwise you will die.\n\nGet Ready, because it will start immediately. "
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/bTrouserContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:text="Continue" />
+
+</RelativeLayout>

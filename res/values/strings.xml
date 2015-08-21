@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">Process v2.2.2</string>
+    <string name="menu_label">Process Menu</string>
+    <string name="fpd">FPD Check</string>
+    <string name="make_semi">Getting a Semi</string>
+    <string name="make_std">STD but without the itching</string>
+    <string name="adjust">So you cocked it up.....</string>
+    <string name="game_menu_label">Fun Times</string>
+    <string name="profani_label">Welcome to a shit game</string>
+    <string name="profani_define_label">Dictionary Corner</string>
+    <string name="results">Results</string>
+    <string name="info">For Your Information</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="app_info">About this app....</string>
+    <string name="games_info">About these games...</string>
+    <string name="trouser_label">Welcome to Trouser Snake</string>
+
+</resources>

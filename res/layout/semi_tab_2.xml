@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android1="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android1:layout_width="match_parent"
+    android1:layout_height="match_parent"
+    android1:orientation="vertical" >
+
+    <LinearLayout
+        android1:id="@+id/tab2Semi"
+        android1:layout_width="match_parent"
+        android1:layout_height="match_parent"
+        android1:orientation="vertical" >
+
+        <LinearLayout
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:gravity="center"
+            android1:orientation="vertical" >
+
+            <TextView
+                android1:id="@+id/tvSTDResults"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="Separator Configuration" />
+
+            <LinearLayout
+                android1:layout_width="match_parent"
+                android1:layout_height="wrap_content"
+                android1:gravity="center" >
+
+                <RadioGroup
+                    android:id="@+id/rgSemiHandles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/rbSemiOneHandle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="One Handle" />
+
+                    <RadioButton
+                        android:id="@+id/rbSemiTwoHandles"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Two Handles" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FOR TWO HANDLE CONFIG:\nIf you started the silo on FCM with both handles enter 0 in the box below, if you started the silo with both handles on skim, enter the flow meter reading when you changed to FCM" />
+
+            <EditText
+                android:id="@+id/etSemiHandle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Vol before changing to FCM"
+                android:inputType="number" >
+
+                <requestFocus />
+            </EditText>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

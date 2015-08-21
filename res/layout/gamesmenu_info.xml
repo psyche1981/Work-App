@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="These games, although not original in the slightest are all programmed for scratch. Any assets, such as images, are all my own work and so any complaints at the shoddiness of the artwork should be directed to Linas.\n\nHope you get at least a couple of minutes pleasure from them.\n\nI rather rushed Trouser Snake, so in the future i will make it a more rounded experience. Oh and on the game over screen, if you touch the exit to menu text, it wil take you back to this menu. It's not too obvious, my bad!\n\nCheers\nSi" />
+
+</LinearLayout>

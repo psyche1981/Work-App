@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvProf_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Instructions:\n\nEnter a letter into the box and press the button to submit it.\nYou have 5 lives to guess the profanity and if you do, you can view the definition via the Define button.\n\nTheres only two problems, i hope, and they are:\n\t 1/ you can submit a number and it will count as a guess.\n\t 2/ only use lower-case letters. it wont recognise capitals.\n\n By the time i&apos;d realised, it was too late. Sorry.\n\nEnjoy " />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

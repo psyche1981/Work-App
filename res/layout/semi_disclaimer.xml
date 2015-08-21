@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bSemiDiscCont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:background="@android:drawable/btn_default"
+        android:text="Continue" />
+
+    <TextView
+        android:id="@+id/tvSTDResults"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bSemiDiscCont"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="61dp"
+        android:text="For best results, test the raw milk out of the separator balance tank on the batch milk channel on the FT, and then round the final FCM vol down to the nearest 100 litres.\n\nIf the result you get looks dodgy, please check it using more conventional means.\n\nIf your silo comes out all wrong, blame Linas.\n\nIf you have any suggestions or complaints let me know.\n\nSi"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>

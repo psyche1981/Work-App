@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bSTDDiscContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:text="Continue" />
+
+    <TextView
+        android:id="@+id/tvSTDDisclaimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="38dp"
+        android:gravity="center"
+        android:text="For best results, test the raw milk out of the balance tank on the batch milk channel on the FT, and then round the final FCM volume down to the nearest 100 litres.\n\nMake sure you check the relevant box on the first page, otherwise the change handles info will be dodgy.\n\nIf you think the FCM volume is rubbish, please check it.\n\nIf the silo comes out wrong, i cannot stress this enough, blame Linas.\n\nIf you have any suggestions or complaints then just let me know.\n\n\nSi "
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>

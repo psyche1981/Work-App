@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android1="http://schemas.android.com/apk/res/android"
+    android1:layout_width="match_parent"
+    android1:layout_height="match_parent"
+    android1:orientation="vertical" >
+    
+    <LinearLayout
+                    android1:id="@+id/tab1Semi"
+                    android1:layout_width="match_parent"
+                    android1:layout_height="match_parent"
+                    android1:orientation="vertical"
+                    android1:weightSum="100" >
+                    
+                    <ScrollView
+                        android1:id="@+id/scrollView1"
+                        android1:layout_width="match_parent"
+                        android1:layout_height="0dp"
+                        android1:layout_weight="40" >
+				
+				        <LinearLayout
+				            android1:layout_width="match_parent"
+				            android1:layout_height="wrap_content"
+				            android1:gravity="center"
+				            android1:orientation="vertical" >
+				
+				            <TextView
+				                android1:id="@+id/tvSTDResults"
+				                android1:layout_width="wrap_content"
+				                android1:layout_height="wrap_content"
+				                android1:layout_gravity="center"
+				                android1:text="Silo Volume"
+				                android1:textColor="@android:color/white" />
+				
+				            <LinearLayout
+				                android1:layout_width="match_parent"
+				                android1:layout_height="wrap_content"
+				                android1:orientation="vertical" >
+				
+				                <RadioGroup
+				                    android1:id="@+id/rgSemi"
+				                    android1:layout_width="wrap_content"
+				                    android1:layout_height="wrap_content"
+				                    android1:layout_gravity="center" >
+				
+				                    <RadioButton
+				                        android1:id="@+id/rbSemi40k"
+				                        android1:layout_width="wrap_content"
+				                        android1:layout_height="wrap_content"
+				                        android1:checked="true"
+				                        android1:text="   40000" />
+				
+				                    <RadioButton
+				                        android1:id="@+id/rbSemi50k"
+				                        android1:layout_width="wrap_content"
+				                        android1:layout_height="wrap_content"
+				                        android1:text="   50000" />
+				
+				                    <RadioButton
+				                        android1:id="@+id/rbSemi60k"
+				                        android1:layout_width="wrap_content"
+				                        android1:layout_height="wrap_content"
+				                        android1:text="   60000" />
+				
+				                    <RadioButton
+				                        android1:id="@+id/rbSemiCustom"
+				                        android1:layout_width="wrap_content"
+				                        android1:layout_height="wrap_content"
+				                        android1:text="   Custom Volume" />
+				                </RadioGroup>
+				
+				                <EditText
+				                    android1:id="@+id/etSemiCustom"
+				                    android1:layout_width="match_parent"
+				                    android1:layout_height="wrap_content"
+				                    android1:ems="10"
+				                    android1:gravity="center"
+				                    android1:hint="custom silo volume"
+				                    android1:inputType="number" />
+
+				            </LinearLayout>
+				        </LinearLayout>
+				    </ScrollView>
+				
+				    <ScrollView
+				        android1:id="@+id/scrollView2"
+				        android1:layout_width="match_parent"
+				        android1:layout_height="0dp"
+				        android1:layout_weight="40" >
+				
+				        <LinearLayout
+				            android1:layout_width="match_parent"
+				            android1:layout_height="match_parent"
+				            android1:orientation="vertical" >
+				
+				            <TextView
+				                android1:id="@+id/textView2"
+				                android1:layout_width="wrap_content"
+				                android1:layout_height="wrap_content"
+				                android1:layout_gravity="center"
+				                android1:text="Raw Milk Info"
+				                android1:textColor="@android:color/white" />
+				
+				            <LinearLayout
+				                android1:layout_width="match_parent"
+				                android1:layout_height="wrap_content"
+				                android1:gravity="center"
+				                android1:orientation="horizontal" >
+				
+				                <EditText
+				                    android1:id="@+id/etSemiR1Fat"
+				                    android1:layout_width="100dp"
+				                    android1:layout_height="wrap_content"
+				                    android1:ems="10"
+				                    android1:hint="raw 1 fat"
+				                    android1:inputType="number|numberDecimal" />
+				
+				                <EditText
+				                    android1:id="@+id/etSemiR1Vol"
+				                    android1:layout_width="150dp"
+				                    android1:layout_height="wrap_content"
+				                    android1:ems="10"
+				                    android1:hint="raw 1 volume"
+				                    android1:inputType="number" />
+
+				            </LinearLayout>
+				
+				            <LinearLayout
+				                android1:layout_width="fill_parent"
+				                android1:layout_height="wrap_content"
+				                android1:gravity="center" >
+				
+				                <EditText
+				                    android1:id="@+id/etSemiR2Fat"
+				                    android1:layout_width="100dp"
+				                    android1:layout_height="wrap_content"
+				                    android1:ems="10"
+				                    android1:hint="raw 2 fat"
+				                    android1:inputType="number|numberDecimal" />
+
+				            </LinearLayout>
+				
+				            <TextView
+				                android1:id="@+id/tvSTD1"
+				                android1:layout_width="wrap_content"
+				                android1:layout_height="wrap_content"
+				                android1:layout_gravity="center"
+				                android1:text="Interface info"
+				                android1:textColor="@android:color/white" />
+				
+				            <LinearLayout
+				                android1:layout_width="match_parent"
+				                android1:layout_height="wrap_content"
+				                android1:gravity="center" >
+				
+				                <EditText
+				                    android1:id="@+id/etSemiInt1Fat"
+				                    android1:layout_width="100dp"
+				                    android1:layout_height="wrap_content"
+				                    android1:ems="10"
+				                    android1:hint="int 1 fat"
+				                    android1:inputType="number|numberDecimal" />
+				
+				                <EditText
+				                    android1:id="@+id/etSemiInt1Vol"
+				                    android1:layout_width="150dp"
+				                    android1:layout_height="wrap_content"
+				                    android1:ems="10"
+				                    android1:hint="int 1 volume"
+				                    android1:inputType="number" />
+
+				            </LinearLayout>
+				
+				            <LinearLayout
+				                android1:layout_width="match_parent"
+				                android1:layout_height="wrap_content"
+				                android1:gravity="center" >
+				
+				                <EditText
+				                    android1:id="@+id/etSemiInt2Fat"
+				                    android1:layout_width="100dp"
+				                    android1:layout_height="wrap_content"
+				                    android1:ems="10"
+				                    android1:hint="int 2 fat"
+				                    android1:inputType="number|numberDecimal" />
+				
+				                <EditText
+				                    android1:id="@+id/etSemiInt2Vol"
+				                    android1:layout_width="150dp"
+				                    android1:layout_height="wrap_content"
+				                    android1:ems="10"
+				                    android1:hint="int 2 volume"
+				                    android1:inputType="number" />
+
+				            </LinearLayout>
+				        </LinearLayout>
+				    </ScrollView>
+
+				    <LinearLayout
+				        android1:layout_width="match_parent"
+				        android1:layout_height="wrap_content"
+				        android1:layout_weight="20"
+				        android1:gravity="center"
+				        android1:orientation="vertical" >
+
+				        <Button
+				            android1:id="@+id/bMakeSemi"
+				            android1:layout_width="match_parent"
+				            android1:layout_height="wrap_content"
+				            android1:text="Make a Semi" />
+
+				    </LinearLayout>
+
+                </LinearLayout>
+    
+
+</LinearLayout>

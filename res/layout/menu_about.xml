@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvMenu_About"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello\n\nWelcome to the glorious update to the debatably useful Process App.\nI hope that the new layout for the STD calculation will help to reduce some of the errors in the calculation\n\nSome of the new features have been implemented in a bit of a rush and i haven&apos;t tested them on a wide variety of devices so they may be a bit temperamental, so i do apologise\n\nI will do my best to update it to a more recent version of android soon, but it&apos;ll take a bit of time\nIf you have any feedback for me, it would be greatly appreciated.\n\nSi" />
+
+</LinearLayout>

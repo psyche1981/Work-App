@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvFPD1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="FPD 1" />
+
+    <TextView
+        android:id="@+id/tvVol1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="109dp"
+        android:text="Volume 1" />
+
+    <EditText
+        android:id="@+id/etFPD1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_below="@+id/tvFPD1"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0" />
+       
+   
+
+    <EditText
+        android:id="@+id/etVol1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etFPD1"
+        android:layout_alignBottom="@+id/etFPD1"
+        android:layout_alignLeft="@+id/tvVol1"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/tvFPD2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etFPD1"
+        android:text="FPD 2 " />
+
+    <TextView
+        android:id="@+id/tvVol2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvFPD2"
+        android:layout_alignBottom="@+id/tvFPD2"
+        android:layout_alignRight="@+id/tvVol1"
+        android:text="Volume 2" />
+
+    <EditText
+        android:id="@+id/etFPD2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/etFPD1"
+        android:layout_below="@+id/tvFPD2"
+        android:ems="10"
+        android:inputType="number" 
+        android:text="0"/>
+
+    <EditText
+        android:id="@+id/etVol2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvVol2"
+        android:layout_below="@+id/tvVol2"
+        android:ems="10"
+        android:inputType="number" 
+        android:text="0"/>
+
+    <TextView
+        android:id="@+id/tvFPD3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etFPD2"
+        android:text="FPD 3" />
+
+    <TextView
+        android:id="@+id/tvVol3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tvVol2"
+        android:layout_below="@+id/etVol2"
+        android:text="Volume 3" />
+
+    <EditText
+        android:id="@+id/etFPD3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvFPD3"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0" />
+
+    <EditText
+        android:id="@+id/etVol3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvVol3"
+        android:layout_below="@+id/tvVol3"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/tvFPDRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/bGetFPD"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:id="@+id/bGetFPD"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etFPD3"
+        android:layout_marginTop="83dp"
+        android:text="Get FPD" />
+    
+</RelativeLayout>

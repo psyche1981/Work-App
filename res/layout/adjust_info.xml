@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvSTDResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Greetings.\nJust fill in the boxes with the correct info and i'll do the rest.\nOh, and i hope you dont blame this exceptionally well put together app for cocking the silo up in the first place.\n\nI blame Linas." />
+
+</LinearLayout>

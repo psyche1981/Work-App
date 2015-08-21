@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvSTDResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello\n\nInput the FPDs and volumes into the boxes and it will give you the FPD and resultant volume.\n\nUnfortunately, i can't think of a good way to have the boxes with nothing in them without the app crashing, so just leave them set to zero if not in use.\n " />
+
+</LinearLayout>

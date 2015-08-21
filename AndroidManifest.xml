@@ -1,0 +1,154 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="psyche.androidapp.workcalcs"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <application  
+        android:allowBackup="true" 
+        android:icon="@drawable/work_icon" 
+        android:label="@string/app_name" >
+        
+        <activity android:name=".AppSplash" android:label="@string/app_name">
+            	<intent-filter>
+            	    <action android:name="android.intent.action.MAIN"/>
+            	    <category android:name="android.intent.category.LAUNCHER"/>
+               	</intent-filter>
+        </activity>	
+        
+        <activity android:name=".AppSplash2" android:label="@string/app_name">
+            	<intent-filter>
+            	    <action android:name="psyche.androidapp.workcalcs.APPSPLASH2"/>
+            	    <category android:name="android.intent.category.DEFAULT"/>
+               	</intent-filter>
+        </activity>	
+        		
+        <activity android:name=".Menu" android:label="@string/menu_label">
+            	<intent-filter>
+            	    <action android:name="psyche.androidapp.workcalcs.MENU"/>
+            	    <category android:name="android.intent.category.DEFAULT"/>
+               	</intent-filter>
+        </activity>	
+        <activity android:name=".GamesMenu" android:label="@string/game_menu_label">
+            	<intent-filter>
+            	    <action android:name="psyche.androidapp.workcalcs.GAMEMENU"/>
+            	    <category android:name="android.intent.category.DEFAULT"/>
+               	</intent-filter>
+        </activity>	
+        <activity android:name=".MenuAbout"
+            	  android:label="@string/app_info"
+            	  android:theme="@android:style/Theme.Dialog">"
+            <intent-filter >
+                <action android:name="psyche.androidapp.workcalcs.MENUABOUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity> 
+        <activity android:name=".ShameInfo"
+            	  android:label="@string/info"
+            	  android:theme="@android:style/Theme.Dialog">"
+            <intent-filter >
+                <action android:name="psyche.androidapp.workcalcs.SHAMEINFO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity> 
+        <activity android:name=".GamesInfo"
+            	  android:label="@string/games_info"
+            	  android:theme="@android:style/Theme.Dialog">"
+            <intent-filter >
+                <action android:name="psyche.androidapp.workcalcs.GAMESINFO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity> 
+        <activity android:name=".FPDCheck" 
+            	android:screenOrientation="portrait" android:label="@string/fpd"/>
+        <activity android:name=".FPDInfo"
+            	  android:label="@string/info"
+            	  android:theme="@android:style/Theme.Dialog">"
+            <intent-filter >
+                <action android:name="psyche.androidapp.workcalcs.FPDINFO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity> 
+        
+         <activity android:name=".TrouserSplash" 
+            	android:screenOrientation="landscape" android:label="@string/trouser_label"/>
+        
+        <activity android:name=".MakeSemi" 
+            	android:screenOrientation="portrait" android:label="@string/make_semi">
+            <intent-filter >
+                <action android:name="psyche.androidapp.workcalcs.MAKESEMI"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".SemiDisclaimer" 
+            	android:screenOrientation="portrait" android:label="@string/disclaimer"/>
+        
+        <activity android:name=".MakeSTD" 
+            	android:screenOrientation="portrait" android:label="@string/make_std">
+            <intent-filter >
+                <action android:name="psyche.androidapp.workcalcs.MAKESTD"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".STDDisclaimer" 
+            	android:screenOrientation="portrait" android:label="@string/disclaimer"/>
+        
+         <activity android:name=".Adjust" 
+            	android:screenOrientation="portrait" android:label="@string/adjust"/>
+         <activity android:name=".AdjustInfo"
+            	  android:label="@string/info"
+            	  android:theme="@android:style/Theme.Dialog">"
+            <intent-filter >
+                <action android:name="psyche.androidapp.workcalcs.ADJUSTINFO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity> 
+        
+          <activity android:name=".SemiResults" 
+            	android:screenOrientation="portrait" android:label="@string/results"/>
+          
+          <activity android:name=".STDResults" 
+            	android:screenOrientation="portrait" android:label="@string/results"/>
+         
+          <activity android:name=".ProfaniMan" 
+            	android:screenOrientation="landscape" android:label="@string/profani_label"/>
+           <activity android:name=".ProfaniDefine" 
+            	android:screenOrientation="landscape" android:label="@string/profani_define_label">
+           <intent-filter >
+                <action android:name="psyche.androidapp.workcalcs.PROFANIDEFINE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+           </activity>
+           
+           <activity android:name=".ProfaniInfo"
+            	  android:label="@string/info"
+            	  android:theme="@android:style/Theme.Dialog">"
+            <intent-filter >
+                <action android:name="psyche.androidapp.workcalcs.PROFANIINFO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+          	</activity>
+        
+           <activity android:name=".TempScreen" 
+            	android:screenOrientation="landscape" android:label="@string/app_name"/>
+        
+           <activity android:name=".ShameGallery" 
+            	android:screenOrientation="portrait" android:label="@string/app_name"/>
+           
+           <activity android:name=".trousersnake.TrouserSnake"
+            	  android:label="Just a  normal snake going about its business" 
+            	  android:screenOrientation="landscape" >
+            <intent-filter >
+                <action android:name="psyche.androidapp.workcalcs.trousersnake.TROUSERSNAKE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            </activity>
+        
+         
+    </application>
+
+</manifest>

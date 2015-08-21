@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvShame_Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello.\n\nTouch the photo to change it.\n\nThis page is a bit rough and ready but it is just a teaser and was thrown together at the last minute.\n\n Theres only three at the minute but im sure there will be many more to follow" />
+
+</LinearLayout>
