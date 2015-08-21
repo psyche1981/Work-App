@@ -1,5 +1,7 @@
 package psyche.androidapp.workcalcs;
 //TODO refactor all classes into relevant packages
+//TODO add this project to github
+//TODO figure out the gitignore thing
 
 import android.app.ListActivity;
 import android.content.Intent;
